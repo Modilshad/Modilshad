@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Welcome to My Web Frontpage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Awesome Website</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome!</h2>
+      <p>This is a simple, modern web frontpage template.</p>
+      <button onclick="showAlert()">Get Started</button>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <h3>About Us</h3>
+      <p>We build beautiful and responsive web experiences for everyone.</p>
+    </div>
+  </section>
+  <section id="features">
+    <div class="container features">
+      <div>
+        <h4>Fast</h4>
+        <p>Lightning-fast load times and seamless navigation.</p>
+      </div>
+      <div>
+        <h4>Responsive</h4>
+        <p>Looks great on any device, from mobile to desktop.</p>
+      </div>
+      <div>
+        <h4>Customizable</h4>
+        <p>Easily tailored to match your brand and needs.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h3>Contact</h3>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="formMessage"></div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Awesome Website. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
